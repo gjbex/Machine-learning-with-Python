@@ -15,6 +15,7 @@ to create it.  There is some material not covered in the presentation as well.
   * jupyter
   * scikit-learn
   * keras
+  * hyperopt
 
 ## What is it?
 * [`keras`](keras): illustration of using Keras for machine learning.
