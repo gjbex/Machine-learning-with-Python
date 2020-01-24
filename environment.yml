@@ -1,0 +1,14 @@
+name: python_for_machine_learning
+channels:
+  - defaults
+dependencies:
+  - keras
+  - scikit-learn
+  - pandas
+  - jupyterlab
+  - nodejs
+  - matplotlib
+  - seaborn
+  - holoviews
+  - ipywidgets
+  - hyperopt
