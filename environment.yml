@@ -12,3 +12,5 @@ dependencies:
   - holoviews
   - ipywidgets
   - hyperopt
+prefix: /home/gjb/miniconda3/envs/python_for_machine_learning
+
