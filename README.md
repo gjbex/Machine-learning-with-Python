@@ -34,4 +34,3 @@ Video recordings of this training are available on YouTube.
 1. [keras: multilayer perceptrons for digit recognition](https://youtu.be/nAixWMYgzdo) (34 minutes)
 1. [keras: convolutional neural networks for digit recognition] (19 minutes)
 1. [keras: recurrent neural networks for sentiment classification](https://youtu.be/TkafYl9APpM) (26 minutes)
-1. [
