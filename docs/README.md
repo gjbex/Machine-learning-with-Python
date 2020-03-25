@@ -1,7 +1,7 @@
 The Python programming language is increasingly popular.  It is a
 versatile language for general purpose programming and accessible
 for novice programmers.  However, it is also the de facto go-to
-language for machine learning applciations.  This training
+language for machine learning applications. This training
 introduces modules that are useful in that context.
 
 
@@ -65,7 +65,7 @@ Video recordings of this training are available on YouTube.
 ## Target audience
 
 This training is for you if you need to use Python for machine learning
-pplcations.
+applications.
 
 
 ## Prerequisites
