@@ -109,3 +109,6 @@ venv.bak/
 *.bak
 ~$python_for_data_science.pptx
 ~$python_for_machine_learning.pptx
+
+# direnv configuration file
+.envrc
