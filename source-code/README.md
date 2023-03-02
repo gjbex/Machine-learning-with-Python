@@ -26,3 +26,7 @@ to create it.  There is some material not covered in the presentation as well.
   examples are provided forsupervised (regression and classification) and
   unsupervised (clustering) learnign, as well as dimensionality reduction for
   visualization of high-demensional data.
+* [`kullback_leibler_divergence.ipynb`}(kullback_leibler_divergence.ipynb): illustrating
+  the Kullback-Leibler divergence for probability distributions.
+* [`curse_of_dimensionality.ipynb`](curse_of_dimensionality.ipynb): illustration of
+  the curse of dimensionality.
