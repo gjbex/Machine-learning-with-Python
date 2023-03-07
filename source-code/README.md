@@ -30,3 +30,5 @@ to create it.  There is some material not covered in the presentation as well.
   the Kullback-Leibler divergence for probability distributions.
 * [`curse_of_dimensionality.ipynb`](curse_of_dimensionality.ipynb): illustration of
   the curse of dimensionality.
+* [`lime`](lime/): illustration of using LIME to explain machine learning
+  models.
