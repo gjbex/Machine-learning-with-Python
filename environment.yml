@@ -1,6 +1,6 @@
 name: python_for_machine_learning
 channels:
-  - defaults
+  - conda-forge
 dependencies:
   - keras
   - scikit-learn
@@ -11,6 +11,8 @@ dependencies:
   - seaborn
   - holoviews
   - ipywidgets
-    #  - hyperopt
-prefix: /home/gjb/miniconda3/envs/python_for_machine_learning
-
+  - lime
+  - ca-certificates
+  - certifi
+  - openssl
+prefix: /home/gjb/mambaforge/envs/python_for_machine_learning
