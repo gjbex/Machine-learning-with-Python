@@ -2,17 +2,19 @@ name: python_for_machine_learning
 channels:
   - conda-forge
 dependencies:
+  - tensorflow
   - keras
-  - scikit-learn
-  - pandas
   - jupyterlab
-  - nodejs
   - matplotlib
-  - seaborn
-  - holoviews
-  - ipywidgets
-  - lime
+  - scipy
   - ca-certificates
   - certifi
   - openssl
-prefix: /home/gjb/mambaforge/envs/python_for_machine_learning
+  - seaborn
+  - scikit-learn
+  - holoviews
+  - lime
+  - hyperopt
+  - bayesian-optimization
+  - gplearn
+prefix: /home/gjb/mambaforge/envs/tensorflow
