@@ -32,3 +32,5 @@ to create it.  There is some material not covered in the presentation as well.
   the curse of dimensionality.
 * [`lime`](lime/): illustration of using LIME to explain machine learning
   models.
+* [`pinns`](pinns/): illustrations of using PINNs to solve mathematical and physics
+  problems.
