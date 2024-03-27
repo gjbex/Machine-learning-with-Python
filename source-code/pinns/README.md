@@ -9,3 +9,4 @@ equations in the loss function.
 
 1. `logistic_de.ipynb`: Jupyter notebook solving the logistic differential
    equation using a PINN.
+1. `environment.yml`: conda environment specification file.
