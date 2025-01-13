@@ -14,7 +14,7 @@ For information on the training, see the website
    illustrate concepts.
 1. [`environment.yml`](environment.yml): conda environment file intended to be
    cross-platform.
-1. [`python_for_machine_learning_linux64_conda_specs.txt`](python_for_machine_learning_linux64_conda_specs.txt):
+1. [`machine_learning_with_python_linux64_conda_specs.txt`](machine_learning_with_python_linux64_conda_specs.txt):
    conda environment specification file specific for 64-bit Linux to precisely
    reproduce the environment on which the code was developed.
 1. [License](LICENSE): license information for the material in this repository.
