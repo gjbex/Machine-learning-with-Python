@@ -27,7 +27,8 @@ For information on the training, see the website
 
 ## Video sessions
 
-Video recordings of this training are available on YouTube.
+Video recordings of this training are available on YouTube.  **Note:** the
+recordings were made in 2020 and have not been updated since.
 
 1. [Introduction](https://youtu.be/QIZ0-oHwMaI) (25 minutes)
 1. [scikit-learn: data pipelines and regression](https://youtu.be/sy4U9VteP8Q) (28 minutes)
