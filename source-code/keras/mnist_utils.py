@@ -19,7 +19,7 @@ def create_input_pipeline():
 def create_output_pipeline():
     output_reshaper = FunctionTransformer(lambda x: x.reshape(-1, 1),
                                           validate=False)
-    output_encoder = OneHotEncoder(categories='auto')
+    output_encoder = OneHotEncoder(sparse_output=True, categories='auto')
     output_type_changer = FunctionTransformer(lambda x: x.astype(np.float32),
                                               validate=False)
     return Pipeline([
@@ -39,8 +39,8 @@ def plot_history(network_history):
     plt.figure()
     plt.xlabel('Epochs')
     plt.ylabel('Accuracy')
-    plt.plot(network_history.history['acc'])
-    plt.plot(network_history.history['val_acc'])
+    plt.plot(network_history.history['accuracy'])
+    plt.plot(network_history.history['val_accuracy'])
     plt.legend(['Training', 'Validation'], loc='lower right')
 
 
@@ -49,7 +49,7 @@ def plot_confusion_matrix(cm, classes,
                       cmap=plt.cm.Blues):
     log1p_cm = np.log1p(cm)
     if normalize:
-        cm = cm.astype(np.float)/cm.sum(axis=1)[:, np.newaxis]
+        cm = cm.astype(np.float32)/cm.sum(axis=1)[:, np.newaxis]
     figure, axes = plt.subplots(figsize=(6, 6))
     axes.imshow(log1p_cm, interpolation='nearest', cmap=cmap)
     axes.set_xticks(classes)
