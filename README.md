@@ -1,8 +1,8 @@
-# Python for machine learning
+# Machine learning with Python
 
-GitHub repository for participants of the "Python for machine learning" training.
+GitHub repository for participants of the "Machine learning with Python" training.
 For information on the training, see the website
-[https://gjbex.github.io/Python-for-data-science/](https://gjbex.github.io/Python-for-machine-learning/)
+[https://gjbex.github.io/Machine-learning-with-Python/](https://gjbex.github.io/Machine-learning-with-Python/)
 
 
 ## What is it?
