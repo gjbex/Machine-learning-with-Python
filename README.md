@@ -7,7 +7,7 @@ For information on the training, see the website
 
 ## What is it?
 
-1. [`python_for_machine_learning.pptx`](python_for_machine_learning.pptx): PowerPoint
+1. [`machine_learning_with_python.pptx`](machine_learning_with_python.pptx): PowerPoint
    presentation used for the training.
 1. [`hands-on`](hands-on): Jupyter notebooks for hands-on sessions.
 1. [`source-code`](source-code): sample code written to develop the slides and
