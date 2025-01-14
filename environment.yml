@@ -1,4 +1,4 @@
-name: python_for_machine_learning
+name: machine_learning_with_python
 channels:
   - conda-forge
 dependencies:
@@ -17,4 +17,4 @@ dependencies:
   - hyperopt
   - bayesian-optimization
   - gplearn
-prefix: /home/gjb/mambaforge/envs/tensorflow
+prefix: /home/gjb/mambaforge/envs/machine_learning_with_python
