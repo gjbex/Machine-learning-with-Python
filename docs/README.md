@@ -1,9 +1,10 @@
-The Python programming language is increasingly popular.  It is a
-versatile language for general purpose programming and accessible
-for novice programmers.  However, it is also the de facto go-to
-language for machine learning applications. This training
-introduces modules that are useful in that context.
+Machine learning plays an increasingly important role in many scientific
+domains.  A Python programmer can use high-quality machine learning
+frameworks for classic machine learning as well as for state-of-the-art
+algorithms.
 
+This training concentrates on methodological and practical aspects of
+machine learning and how to apply those using Python.
 
 ## Learning outcomes
 
@@ -45,7 +46,7 @@ Total duration: 4 hours.
 ## Training materials
 
 Slides are available in the
- [GitHub repository](https://github.com/gjbex/Python-for-machine-learning),
+ [GitHub repository](https://github.com/gjbex/Machine-learning-with-Python),
 as well as example code and hands-on material.
 
 

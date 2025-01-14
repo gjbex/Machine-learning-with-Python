@@ -1,20 +1,20 @@
-# Python for machine learning
+# Machine learning with Python
 
-GitHub repository for participants of the "Python for machine learning" training.
+GitHub repository for participants of the "Machine learning with Python" training.
 For information on the training, see the website
-[https://gjbex.github.io/Python-for-data-science/](https://gjbex.github.io/Python-for-machine-learning/)
+[https://gjbex.github.io/Machine-learning-with-Python/](https://gjbex.github.io/Machine-learning-with-Python/)
 
 
 ## What is it?
 
-1. [`python_for_machine_learning.pptx`](python_for_machine_learning.pptx): PowerPoint
+1. [`machine_learning_with_python.pptx`](machine_learning_with_python.pptx): PowerPoint
    presentation used for the training.
 1. [`hands-on`](hands-on): Jupyter notebooks for hands-on sessions.
 1. [`source-code`](source-code): sample code written to develop the slides and
    illustrate concepts.
 1. [`environment.yml`](environment.yml): conda environment file intended to be
    cross-platform.
-1. [`python_for_machine_learning_linux64_conda_specs.txt`](python_for_machine_learning_linux64_conda_specs.txt):
+1. [`machine_learning_with_python_linux64_conda_specs.txt`](machine_learning_with_python_linux64_conda_specs.txt):
    conda environment specification file specific for 64-bit Linux to precisely
    reproduce the environment on which the code was developed.
 1. [License](LICENSE): license information for the material in this repository.
@@ -27,7 +27,8 @@ For information on the training, see the website
 
 ## Video sessions
 
-Video recordings of this training are available on YouTube.
+Video recordings of this training are available on YouTube.  **Note:** the
+recordings were made in 2020 and have not been updated since.
 
 1. [Introduction](https://youtu.be/QIZ0-oHwMaI) (25 minutes)
 1. [scikit-learn: data pipelines and regression](https://youtu.be/sy4U9VteP8Q) (28 minutes)
