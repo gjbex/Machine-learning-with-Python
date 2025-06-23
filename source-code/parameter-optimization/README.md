@@ -17,3 +17,5 @@ values a in parameter space are explored.
     parameters by running jobs and using the result.
   1. `JuliaProcesses`: illustration of optimizing application
     parameters by running processes.
+  1. `optuna`: illustrations of using Optuna for hyperparameter
+    optimization.
