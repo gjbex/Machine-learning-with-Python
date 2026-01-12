@@ -112,3 +112,4 @@ venv.bak/
 
 # direnv configuration file
 .envrc
+/~$machine_learning_with_python.pptx
