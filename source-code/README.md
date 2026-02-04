@@ -19,6 +19,7 @@ to create it.  There is some material not covered in the presentation as well.
 
 ## What is it?
 * [`keras`](keras): illustration of using Keras for machine learning.
+* [`pytorch`](pytorch): illustration of using PyTorch for machine learning.
 * [`parameter-optimization`](parameter-optimization): example of parameter
   optimization kusing hyperopt, although the examples do not optimize
   hyperparameters in machine learning, that would be very similar.
