@@ -1,0 +1,9 @@
+name: pytorch
+channels:
+  - conda-forge
+dependencies:
+  - jupyterlab
+  - pytorch
+  - torchvision
+
+prefix: "/home/gjb/mambaforge/envs/pytorch"
