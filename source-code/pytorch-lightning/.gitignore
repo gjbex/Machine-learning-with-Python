@@ -1,0 +1,5 @@
+# ignore lightning logs and checkpoints
+lightning_logs/
+
+# ignore data files
+data/
