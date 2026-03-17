@@ -13,6 +13,10 @@ natural language processing, computer vision, and reinforcement learning.
    MNIST dataset using PyTorch. It includes code for loading the dataset,
    defining the model architecture, training the model, and evaluating its
    performance.
+1. `tensors.ipynb`: Jupyter notebook that provides an introduction to PyTorch
+   tensors. It covers the basics of tensor operations, including creation,
+   indexing, slicing, and mathematical operations. This notebook serves as a
+   foundation for understanding how to work with data in PyTorch.
 1. `environment.yml`: Conda environment file that specifies the dependencies
    required to run the `mnist.ipynb` notebook. It includes PyTorch and other
    necessary libraries.
