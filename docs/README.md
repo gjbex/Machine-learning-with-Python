@@ -78,7 +78,46 @@ Familiarity with numpy, pandas and matplotlib is strongly recommended.
 If you plan to do Python programming in a Linux or HPC environment you should
 be familiar with these as well.
 
-For following along hands-on, you need * laptop or desktop with internet access.
+More concretely, participants should already be comfortable with the following:
+
+* running Python code in Jupyter or from the command line;
+* variables, numbers, strings, booleans, and basic containers such as lists,
+  tuples, and dictionaries;
+* `if`/`else` statements, `for` loops, and simple comprehensions;
+* writing and calling functions with arguments and return values;
+* importing modules and reading short Python scripts without needing every line
+  explained;
+* basic NumPy array operations such as creating arrays, slicing them, and
+  applying simple vectorized computations;
+* basic pandas usage such as reading tabular data and selecting rows or
+  columns;
+* basic plotting with matplotlib, for instance plotting a curve or a scatter
+  plot and interpreting the result.
+
+You do not need prior experience with scikit-learn, Keras, PyTorch, LIME,
+Hyperopt, Optuna, or PINNs. Those are part of the training itself.
+
+### Quick self-assessment
+
+If you can do most of the tasks below without looking up basic Python syntax,
+you are likely ready for this training.
+
+* load a small CSV file into a pandas DataFrame and inspect a few columns;
+* create a NumPy array, compute its mean, and select a slice from it;
+* write a function that computes a simple quantity such as mean squared error
+  for two arrays of numbers;
+* use `if`/`else` to convert a numeric score into a class label;
+* read a short notebook cell that imports data, transforms it, and plots it;
+* make a small change to an example script or notebook and run it again;
+* create a basic matplotlib plot and explain what the axes and values mean;
+* read a short traceback and identify roughly where an error occurred.
+
+If several of these items still feel difficult, the training will probably move
+too fast. In that case, it is better to first take a short introductory Python
+course and a short introduction to NumPy/pandas/matplotlib first.
+
+For following along hands-on, you need
+* laptop or desktop with internet access.
 * a system set up so you can connect to an HPC system, an account on an HPC
   system (e.g., VSC, CECI, ...), compute credits if that is required to run
   jobs on the HPC system if you want to use an HPC system;
@@ -86,11 +125,16 @@ For following along hands-on, you need * laptop or desktop with internet access.
   system (note that you would require a GPU for some of the examples to work);
 * access to Google Colaboratory if you prefer not to install software.
 
-## Level
+## Level of the Material
 
-* Introductory: 20 %
-* Intermediate: 40 %
-* Advanced: 40 %
+For participants who already have basic Python programming experience, the material in this training is approximately
+
+* Introductory: 15 %
+* Intermediate: 35 %
+* Advanced: 50 %
+
+These percentages describe the level of the machine learning topics covered in
+the training, not the required entry level in Python itself.
 
 
 ## Trainer(s)
