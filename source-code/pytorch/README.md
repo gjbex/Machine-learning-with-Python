@@ -9,13 +9,13 @@ natural language processing, computer vision, and reinforcement learning.
 
 ## What is it?
 
-1. `mnist.ipynb`: Jupyter notebook that demonstrates how to train a simple
-   neural network on the MNIST dataset using PyTorch. It includes code for
-   loading the dataset, defining the model architecture, training the model,
-   and evaluating its performance.
 1. `mnist_mlp.ipynb`: Jupyter notebook that trains and compares multilayer
    perceptrons with and without dropout on the MNIST dataset. It also covers
    checkpointing, confusion matrices, and sensitivity to initialization.
+1. `mnist_cnn.ipynb`: Jupyter notebook that demonstrates how to train a simple
+   neural network on the MNIST dataset using PyTorch. It includes code for
+   loading the dataset, defining the model architecture, training the model,
+   and evaluating its performance.
 1. `tensors.ipynb`: Jupyter notebook that provides an introduction to PyTorch
    tensors. It covers the basics of tensor operations, including creation,
    indexing, slicing, and mathematical operations. This notebook serves as a
