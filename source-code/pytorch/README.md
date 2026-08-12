@@ -9,6 +9,9 @@ natural language processing, computer vision, and reinforcement learning.
 
 ## What is it?
 
+1. `mnist_data_exploration.ipynb`: Jupyter notebook that explores the MNIST
+   dataset using PyTorch. It covers dataset representation, image semantics,
+   handwriting variation, and class distributions.
 1. `mnist_mlp.ipynb`: Jupyter notebook that trains and compares multilayer
    perceptrons with and without dropout on the MNIST dataset. It also covers
    checkpointing, confusion matrices, and sensitivity to initialization.
@@ -21,7 +24,7 @@ natural language processing, computer vision, and reinforcement learning.
    indexing, slicing, and mathematical operations. This notebook serves as a
    foundation for understanding how to work with data in PyTorch.
 1. `environment.yml`: Conda environment file that specifies the dependencies
-   required to run the `mnist.ipynb` notebook. It includes PyTorch and other
+   required to run the PyTorch notebooks. It includes PyTorch and other
    necessary libraries.
 1. `pytorch_linux64_conda_specs.txt`: Text file containing the specifications
    for creating a Conda environment with PyTorch for Linux 64-bit systems.
