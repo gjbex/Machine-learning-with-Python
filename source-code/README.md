@@ -13,15 +13,21 @@ to create it.  There is some material not covered in the presentation as well.
 * [`parameter-optimization`](parameter-optimization): example of parameter
   optimization kusing hyperopt, although the examples do not optimize
   hyperparameters in machine learning, that would be very similar.
-* [`scikit-learn`](scikit-learn): examples of scikit-learn for machine learning,
-  examples are provided forsupervised (regression and classification) and
-  unsupervised (clustering) learnign, as well as dimensionality reduction for
-  visualization of high-demensional data.
-* [`kullback_leibler_divergence.ipynb`}(kullback_leibler_divergence.ipynb): illustrating
-  the Kullback-Leibler divergence for probability distributions.
-* [`curse_of_dimensionality.ipynb`](curse_of_dimensionality.ipynb): illustration of
-  the curse of dimensionality.
+* [`scikit-learn`](scikit-learn): examples of scikit-learn for machine
+  learning, examples are provided forsupervised (regression and classification)
+  and unsupervised (clustering) learnign, as well as dimensionality reduction
+  for visualization of high-demensional data.
+* [`kullback_leibler_divergence.ipynb`}(kullback_leibler_divergence.ipynb):
+  illustrating the Kullback-Leibler divergence for probability distributions.
+* [`curse_of_dimensionality.ipynb`](curse_of_dimensionality.ipynb):
+  illustration of the curse of dimensionality.
 * [`lime`](lime/): illustration of using LIME to explain machine learning
   models.
-* [`pinns`](pinns/): illustrations of using PINNs to solve mathematical and physics
-  problems.
+* [`underfitting_overfitting.ipynb`](underfitting_overfitting.ipynb): jupyter
+  notebook illustrating over and underfitting for least square fits.
+* [`activation_functions.ipynb`](activation_functions.ipynb): jupyter notebook
+  illustrating some activation functions for deep learning applications.
+* [`convolution.ipynb`](convolution.ipynb): Jupyter notebook illustrating
+  convolution for feature detection in the MNIST data set.
+* [`pinns`](pinns/): illustrations of using PINNs to solve mathematical and
+  physics problems.
