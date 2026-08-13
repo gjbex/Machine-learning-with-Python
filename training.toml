@@ -36,11 +36,11 @@ competencies = ["deep-learning.cnn-image-classification"]
 
 [[learning_outcomes]]
 statement = "Understand the concepts underpinning hyperparameter optimization."
-competencies = []
+competencies = ["machine-learning.hyperparameter-optimization-concepts"]
 
 [[learning_outcomes]]
 statement = "Understand the concepts underpinning simple Physics-Informed Neural Networks (PINNs)."
-competencies = []
+competencies = ["deep-learning.physics-informed-neural-network-concepts"]
 
 [[learning_outcomes]]
 statement = "Be aware of best practices and pitfalls in machine learning."
