@@ -13,15 +13,15 @@ When you complete this training you will
   * understand what supervised and unsupervised learning are;
   * understand the workflow required for supervised learning;
   * be able to implement that workflow in scikit-learn;
-  * know how to use algorithms in scikit-learn such as ridge regression
-    and naive Bayes classification;
+  * know how to use algorithms in scikit-learn such as ridge regression and
+    naive Bayes classification;
   * be able to apply k-means clustering;
   * understand the main concepts in deep neural networks;
   * be able to apply a convolutional neural network (CNN) to an image
     classification task;
-  * understand the concepts underpinning word embeddings;
-  * be able to use recurrent network architectures such as 
-    long short term memory (LSTM) to natural language problems;
+  * understand the concepts underpinning hyperparameter optimization;
+  * understand the concepts underpinning simple Physics-Informed Neural
+    Networks (PINNs);
   * be aware of best practices and pitfalls in machine learning.
 
 
@@ -37,8 +37,8 @@ Total duration: 4 hours.
   | science-learn: clustering                   | 20 min.  |
   | coffee break                                | 10 min.  |
   | introduction to neural networks             | 10 min.  |
-  | Keras: image classification with CNNs       | 40 min.  |
-  | Keras: sentiment classification with LSTM   | 40 min.  |
+  | Image classification with CNNs              | 40 min.  |
+  | Physics-Informed Neural Networks            | 30 min.  |
   | hyperparameter optimization                 | 30 min.  |
   | wrap up                                     | 10 min.  |
 

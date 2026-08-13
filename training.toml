@@ -35,12 +35,12 @@ statement = "Be able to apply a convolutional neural network (CNN) to an image c
 competencies = ["deep-learning.cnn-image-classification"]
 
 [[learning_outcomes]]
-statement = "Understand the concepts underpinning word embeddings."
-competencies = ["natural-language-processing.word-embeddings"]
+statement = "Understand the concepts underpinning hyperparameter optimization."
+competencies = []
 
 [[learning_outcomes]]
-statement = "Be able to use recurrent network architectures such as long short term memory (LSTM) to natural language problems."
-competencies = ["deep-learning.recurrent-models-for-sequences"]
+statement = "Understand the concepts underpinning simple Physics-Informed Neural Networks (PINNs)."
+competencies = []
 
 [[learning_outcomes]]
 statement = "Be aware of best practices and pitfalls in machine learning."
@@ -158,12 +158,12 @@ subject = "introduction to neural networks"
 duration_minutes = 10
 
 [[sessions.items]]
-subject = "Keras: image classification with CNNs"
+subject = "Image classification with CNNs"
 duration_minutes = 40
 
 [[sessions.items]]
-subject = "Keras: sentiment classification with LSTM"
-duration_minutes = 40
+subject = "Physics-Informed Neural Networks"
+duration_minutes = 30
 
 [[sessions.items]]
 subject = "hyperparameter optimization"

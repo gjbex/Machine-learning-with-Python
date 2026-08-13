@@ -6,7 +6,6 @@ to create it.  There is some material not covered in the presentation as well.
 
 ## What is it?
 
-* [`keras`](keras): illustration of using Keras for machine learning.
 * [`pytorch`](pytorch): illustration of using PyTorch for machine learning.
 * [`pytorch-lightning/`](pytorch-lightning/): illustration of using PyTorch
   Lightning  for machine learning.
@@ -31,3 +30,5 @@ to create it.  There is some material not covered in the presentation as well.
   convolution for feature detection in the MNIST data set.
 * [`pinns`](pinns/): illustrations of using PINNs to solve mathematical and
   physics problems.
+* [`keras`](keras): illustration of using Keras for machine learning (legacy
+  material).
