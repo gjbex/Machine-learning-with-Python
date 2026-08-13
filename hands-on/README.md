@@ -23,7 +23,3 @@ that you will have to write some of the code yourself.
 1. 060_mnist_cnn:
     illustrates a convolutional neural network to recognize handwritten
     digits.
-1. 070_imdb_data_exploration: exploring the IMDB data set.
-1. 080_imdb_rnn:
-    illustrates recurrent neural networks using GRU and LSTM units for
-    sentiment classification on the IMDB data set.
