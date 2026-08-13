@@ -16,6 +16,10 @@ For information on the training, see the website
    core teaching material, intended to be cross-platform.
 1. [`environment_gpu.yml`](environment_gpu.yml): GPU-enabled conda environment
    for the instructor laptop, using its validated CUDA configuration.
+1. [`environment_keras.yml`](environment_keras.yml): CPU-only Linux conda
+   environment for the legacy Keras examples.
+1. [`environment_keras_gpu.yml`](environment_keras_gpu.yml): Linux/NVIDIA conda
+   environment for running the legacy Keras examples with GPU acceleration.
 1. [`machine_learning_with_python_linux64_conda_specs.txt`](machine_learning_with_python_linux64_conda_specs.txt):
    conda environment specification file specific for 64-bit Linux to precisely
    reproduce the environment on which the code was developed.

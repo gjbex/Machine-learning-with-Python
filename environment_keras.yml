@@ -1,0 +1,21 @@
+name: machine_learning_with_python_keras_cpu
+channels:
+  - conda-forge
+dependencies:
+  # Compatibility baseline for the legacy Keras teaching material.  These
+  # versions match the stack with which the committed notebooks were run.
+  - python=3.12
+  - tensorflow=2.18=cpu*
+  - keras=3.8
+
+  # Numerical, data, and file-format dependencies imported by the examples.
+  - numpy
+  - scipy
+  - pandas
+  - scikit-learn
+  - h5py
+
+  # Notebook and visualization dependencies.
+  - jupyterlab
+  - matplotlib
+  - seaborn
