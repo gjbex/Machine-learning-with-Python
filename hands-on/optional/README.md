@@ -1,11 +1,14 @@
-# Optional notebooks
+# Optional legacy Keras notebooks
 
-These notebooks are part of the training's optional material.
+These notebooks are retained as legacy supplementary material. They still use
+Keras and are not part of the current PyTorch-based core training path. There
+is no trainer-reviewed PyTorch reference implementation for these exercises
+yet.
 
 All notebooks come in at least two versions:
   
-  * `lazy`: all code is ready to execute, doesn't contain output; and
-  * `complete`: intended to be viewed on Github, does contain output.
+  * `lazy`: all code is ready to execute and contains no saved output; and
+  * `complete`: intended to be viewed on GitHub and contains saved output.
 
 For some notebooks, there is a `courageous` version as well, which means that
 you will have to write some of the code yourself.

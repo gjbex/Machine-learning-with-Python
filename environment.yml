@@ -2,6 +2,8 @@ name: machine_learning_with_python
 channels:
   - conda-forge
 dependencies:
+  - pytorch
+  - torchvision
   - tensorflow
   - keras
   - jupyterlab
