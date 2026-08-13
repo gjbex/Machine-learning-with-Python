@@ -12,8 +12,10 @@ For information on the training, see the website
 1. [`hands-on`](hands-on): Jupyter notebooks for hands-on sessions.
 1. [`source-code`](source-code): sample code written to develop the slides and
    illustrate concepts.
-1. [`environment.yml`](environment.yml): conda environment file intended to be
-   cross-platform.
+1. [`environment.yml`](environment.yml): CPU-only conda environment for the
+   core teaching material, intended to be cross-platform.
+1. [`environment_gpu.yml`](environment_gpu.yml): GPU-enabled conda environment
+   for the instructor laptop, using its validated CUDA configuration.
 1. [`machine_learning_with_python_linux64_conda_specs.txt`](machine_learning_with_python_linux64_conda_specs.txt):
    conda environment specification file specific for 64-bit Linux to precisely
    reproduce the environment on which the code was developed.
