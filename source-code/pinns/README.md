@@ -11,5 +11,8 @@ equations in the loss function.
    equation using a PINN.
 1. `pendulum.ipynb`: Jupyter notebook solving the equation of a pendulum
    with damping using a PINN.
-   equation using a PINN.
+1. `parameterized_heat_equation.ipynb`: Jupyter notebook training one PINN
+   across a family of heat equations with varying initial conditions and
+   diffusivities. It uses hard initial and boundary constraints and validates
+   interpolation and extrapolation against the analytical solution.
 1. `environment.yml`: conda environment specification file.
