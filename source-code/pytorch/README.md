@@ -23,9 +23,3 @@ natural language processing, computer vision, and reinforcement learning.
    tensors. It covers the basics of tensor operations, including creation,
    indexing, slicing, and mathematical operations. This notebook serves as a
    foundation for understanding how to work with data in PyTorch.
-1. `environment.yml`: Conda environment file that specifies the dependencies
-   required to run the PyTorch notebooks. It includes PyTorch and other
-   necessary libraries.
-1. `pytorch_linux64_conda_specs.txt`: Text file containing the specifications
-   for creating a Conda environment with PyTorch for Linux 64-bit systems.
-   It lists the required packages and their versions.
