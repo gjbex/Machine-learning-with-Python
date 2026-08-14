@@ -1,0 +1,23 @@
+name: machine_learning_with_python_core_gpu
+channels:
+  - conda-forge
+dependencies:
+  # Instructor-laptop configuration, based on the validated `pytorch` mamba
+  # environment. This file is intentionally hardware-specific.
+  - python=3.14
+  - pytorch=2.13
+  - pytorch-gpu=2.13
+  - torchvision=0.28
+  - cuda-version=12.9
+
+  # Keep the teaching stack aligned with the CPU environment.
+  - numpy
+  - scipy
+  - pandas
+  - scikit-learn
+  - lime
+  - hyperopt
+  - bayesian-optimization
+  - jupyterlab
+  - matplotlib
+  - bokeh

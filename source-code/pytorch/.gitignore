@@ -1,0 +1,5 @@
+# ignore data directory
+data/
+# ignore model checkpoints
+mnist_cnn.pt
+models/

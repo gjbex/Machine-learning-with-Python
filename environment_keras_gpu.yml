@@ -1,0 +1,20 @@
+name: machine_learning_with_python_keras_gpu
+channels:
+  - conda-forge
+dependencies:
+  # Linux/NVIDIA configuration matching the validated legacy environment.
+  # TensorFlow uses an available GPU without changes to the example code.
+  - python=3.12
+  - tensorflow=2.18=cuda126*
+  - keras=3.8
+  - cuda-version=12.6
+
+  # Keep the teaching stack aligned with the CPU environment.
+  - numpy
+  - scipy
+  - pandas
+  - scikit-learn
+  - h5py
+  - jupyterlab
+  - matplotlib
+  - seaborn

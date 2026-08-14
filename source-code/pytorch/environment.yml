@@ -3,10 +3,7 @@ channels:
   - conda-forge
 dependencies:
   - jupyterlab
-  - matplotlib
   - pytorch
-  - scipy
-  - torchopt
   - torchvision
 
 prefix: "/home/gjb/mambaforge/envs/pytorch"

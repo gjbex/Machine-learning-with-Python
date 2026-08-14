@@ -1,0 +1,174 @@
+schema_version = 2
+id = "machine-learning-with-python"
+title = "Machine learning with Python"
+summary = """
+Machine learning plays an increasingly important role in many scientific domains. A Python programmer can use high-quality machine learning frameworks for classic machine learning as well as for state-of-the-art algorithms. This training concentrates on methodological and practical aspects of machine learning and how to apply those using Python.
+"""
+languages = ["Python"]
+
+[[learning_outcomes]]
+statement = "Understand what supervised and unsupervised learning are."
+competencies = ["machine-learning.distinguish-learning-paradigms"]
+
+[[learning_outcomes]]
+statement = "Understand the workflow required for supervised learning."
+competencies = ["machine-learning.supervised-learning-workflow"]
+
+[[learning_outcomes]]
+statement = "Be able to implement that workflow in scikit-learn."
+competencies = ["machine-learning.use-scikit-learn"]
+
+[[learning_outcomes]]
+statement = "Know how to use algorithms in scikit-learn such as ridge regression and naive Bayes classification."
+competencies = ["machine-learning.regression-classification-and-clustering"]
+
+[[learning_outcomes]]
+statement = "Be able to apply k-means clustering."
+competencies = ["machine-learning.regression-classification-and-clustering"]
+
+[[learning_outcomes]]
+statement = "Understand the main concepts in deep neural networks."
+competencies = ["deep-learning.neural-network-concepts"]
+
+[[learning_outcomes]]
+statement = "Be able to apply a convolutional neural network (CNN) to an image classification task."
+competencies = ["deep-learning.cnn-image-classification"]
+
+[[learning_outcomes]]
+statement = "Understand the concepts underpinning hyperparameter optimization."
+competencies = ["machine-learning.hyperparameter-optimization-concepts"]
+
+[[learning_outcomes]]
+statement = "Understand the concepts underpinning simple Physics-Informed Neural Networks (PINNs)."
+competencies = ["deep-learning.physics-informed-neural-network-concepts"]
+
+[[learning_outcomes]]
+statement = "Be aware of best practices and pitfalls in machine learning."
+competencies = ["machine-learning.apply-best-practices"]
+
+[source]
+metadata_document = "docs/README.md"
+repository_url = "https://github.com/gjbex/Machine-learning-with-Python/"
+website_url = "https://gjbex.github.io/Machine-learning-with-Python/"
+license = "CC-BY-4.0"
+
+[delivery]
+duration_minutes = 240
+duration_kind = "fixed"
+session_count = 1
+target_session_duration_minutes = 240
+schedule_complete = true
+description = """
+Total duration: 4 hours.
+"""
+
+[audience]
+description = """
+This training is for you if you need to use Python for machine learning applications.
+"""
+
+[prerequisites]
+summary = """
+You will need experience programming in Python. This is not a training that starts from scratch. Familiarity with numpy is not required, but would be beneficial. Familiarity with numpy, pandas and matplotlib is strongly recommended. If you plan to do Python programming in a Linux or HPC environment you should be familiar with these as well. More concretely, participants should already be comfortable with the following: * running Python code in Jupyter or from the command line; * variables, numbers, strings, booleans, and basic containers such as lists, tuples, and dictionaries; * `if`/`else` statements, `for` loops, and simple comprehensions; * writing and calling functions with arguments and return values; * importing modules and reading short Python scripts without needing every line explained; * basic NumPy array operations such as creating arrays, slicing them, and applying simple vectorized computations; * basic pandas usage such as reading tabular data and selecting rows or columns; * basic plotting with matplotlib, for instance plotting a curve or a scatter plot and interpreting the result. You do not need prior experience with scikit-learn, Keras, PyTorch, LIME, Hyperopt, Optuna, or PINNs. Those are part of the training itself.
+"""
+competencies = ["python.run-code", "python.values-and-containers", "python.control-flow-and-comprehensions", "python.functions", "python.import-modules", "numpy.create-slice-and-reshape-arrays", "numpy.vectorized-computations", "pandas.read-tabular-data", "pandas.select-rows-and-columns", "matplotlib.create-basic-plots"]
+
+[self_assessment]
+introduction = """
+If you can do most of the tasks below without looking up basic Python syntax, you are likely ready for this training.
+"""
+tasks = [
+  "Load a small CSV file into a pandas DataFrame and inspect a few columns.",
+  "Create a NumPy array, compute its mean, and select a slice from it.",
+  "Write a function that computes a simple quantity such as mean squared error for two arrays of numbers.",
+  "Use `if`/`else` to convert a numeric score into a class label.",
+  "Read a short notebook cell that imports data, transforms it, and plots it.",
+  "Make a small change to an example script or notebook and run it again.",
+  "Create a basic matplotlib plot and explain what the axes and values mean.",
+  "Read a short traceback and identify roughly where an error occurred."
+]
+
+[requirements]
+software = [
+  "Laptop or desktop with internet access.",
+  "A system set up so you can connect to an HPC system, an account on an HPC system (e.g., VSC, CECI, ...), compute credits if that is required to run jobs on the HPC system if you want to use an HPC system.",
+  "A Python environment that can run Jupyter Lab if you want to use your own system (note that you would require a GPU for some of the examples to work).",
+  "Access to Google Colaboratory if you prefer not to install software."
+]
+
+[level]
+introductory_percent = 15
+intermediate_percent = 35
+advanced_percent = 50
+description = """
+For participants who already have basic Python programming experience, the material in this training is approximately These percentages describe the level of the machine learning topics covered in the training, not the required entry level in Python itself.
+"""
+
+[[materials]]
+kind = "slides"
+path = "dimensionality_reduction.pptx"
+
+[[materials]]
+kind = "slides"
+path = "machine_learning_with_python.pptx"
+
+[[materials]]
+kind = "source-code"
+path = "source-code"
+
+[[materials]]
+kind = "exercises"
+path = "hands-on"
+
+[[materials]]
+kind = "environment"
+path = "environment.yml"
+
+[[trainers]]
+name = "Geert Jan Bex"
+email = "geertjan.bex@uhasselt.be"
+
+[[sessions]]
+id = "session-1"
+title = "Session one"
+duration_minutes = 240
+
+[[sessions.items]]
+subject = "introduction and motivation"
+duration_minutes = 20
+
+[[sessions.items]]
+subject = "scikit-learn: regression"
+duration_minutes = 40
+
+[[sessions.items]]
+subject = "scikit-learn: classification"
+duration_minutes = 30
+
+[[sessions.items]]
+subject = "science-learn: clustering"
+duration_minutes = 20
+
+[[sessions.items]]
+subject = "coffee break"
+duration_minutes = 10
+
+[[sessions.items]]
+subject = "introduction to neural networks"
+duration_minutes = 10
+
+[[sessions.items]]
+subject = "Image classification with CNNs"
+duration_minutes = 40
+
+[[sessions.items]]
+subject = "Physics-Informed Neural Networks"
+duration_minutes = 30
+
+[[sessions.items]]
+subject = "hyperparameter optimization"
+duration_minutes = 30
+
+[[sessions.items]]
+subject = "wrap up"
+duration_minutes = 10
