@@ -15,6 +15,10 @@ natural language processing, computer vision, and reinforcement learning.
 1. `mnist_mlp.ipynb`: Jupyter notebook that trains and compares multilayer
    perceptrons with and without dropout on the MNIST dataset. It also covers
    checkpointing, confusion matrices, and sensitivity to initialization.
+1. `mnist_cross_validation.ipynb`: Jupyter notebook that introduces stratified
+   cross-validation with a compact MNIST multilayer perceptron. It covers
+   paired model comparison, fold-to-fold variation, leakage prevention, and
+   one final test-set evaluation.
 1. `mnist_cnn.ipynb`: Jupyter notebook that demonstrates how to train a simple
    neural network on the MNIST dataset using PyTorch. It includes code for
    loading the dataset, defining the model architecture, training the model,
