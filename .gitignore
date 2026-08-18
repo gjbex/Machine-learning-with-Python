@@ -112,4 +112,7 @@ venv.bak/
 
 # direnv configuration file
 .envrc
+
+# PowerPoint checkpoint files
 /~$machine_learning_with_python.pptx
+/~$multi_gpu.pptx
