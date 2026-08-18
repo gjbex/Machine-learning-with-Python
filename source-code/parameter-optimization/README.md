@@ -8,7 +8,13 @@ model.
 Optuna is a Python framework for automated hyperparameter optimization.
 
 
-## what is it?
+## What is it?
 
-1. `simple.py`: very simple example of how to use Optuna to optimize a function.
-1. `experiments.ipynb`: some experiments on more complicated function optimization.
+1. `simple.py`: minimal script showing the objective/study/trial workflow.
+1. `experiments.ipynb`: methodology-first introduction to Optuna, including a
+   controlled comparison of stochastic samplers and a machine-learning example
+   with separate validation and test data.
+1. `parameterized_heat_equation_optimization.ipynb`: advanced case study using
+   a parameterized heat-equation PINN. It compares random search with Optuna,
+   confirms a shortlist across fresh training seeds, and reserves a final audit
+   suite until after model selection.

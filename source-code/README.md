@@ -9,9 +9,8 @@ to create it.  There is some material not covered in the presentation as well.
 * [`pytorch`](pytorch): illustration of using PyTorch for machine learning.
 * [`pytorch-lightning/`](pytorch-lightning/): illustration of using PyTorch
   Lightning  for machine learning.
-* [`parameter-optimization`](parameter-optimization): example of parameter
-  optimization kusing hyperopt, although the examples do not optimize
-  hyperparameters in machine learning, that would be very similar.
+* [`parameter-optimization`](parameter-optimization): methodology-first Optuna
+  examples, from a minimal study to a realistic PINN case study.
 * [`scikit-learn`](scikit-learn): examples of scikit-learn for machine
   learning, examples are provided forsupervised (regression and classification)
   and unsupervised (clustering) learnign, as well as dimensionality reduction

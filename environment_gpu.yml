@@ -10,14 +10,17 @@ dependencies:
   - torchvision=0.28
   - cuda-version=12.9
 
-  # Keep the teaching stack aligned with the CPU environment.
+  # Core numerical and machine-learning stack.
   - numpy
   - scipy
   - pandas
   - scikit-learn
+
+  # Model interpretation and parameter-optimization examples.
   - lime
-  - hyperopt
-  - bayesian-optimization
+  - optuna
+
+  # Notebook and visualization stack used by the core teaching material.
   - jupyterlab
   - matplotlib
   - bokeh

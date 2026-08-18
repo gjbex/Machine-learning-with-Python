@@ -17,8 +17,6 @@ dependencies:
 
   # Model interpretation and parameter-optimization examples.
   - lime
-  - hyperopt
-  - bayesian-optimization
   - optuna
 
   # Notebook and visualization stack used by the core teaching material.
