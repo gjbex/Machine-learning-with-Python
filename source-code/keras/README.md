@@ -15,6 +15,10 @@ machine learning tasks.
 1. `mnist_cnn.pbs`: example PBS script to exectute the `mnist_cnn.ipynb`
     notebook in batch as a job.
 1. `Flatland`: machine learning adventures in Flatland.
+1. [`environment_keras.yml`](environment_keras.yml): CPU-only Linux conda
+   environment for the legacy Keras examples.
+1. [`environment_keras_gpu.yml`](environment_keras_gpu.yml): Linux/NVIDIA conda
+   environment for running the legacy Keras examples with GPU acceleration.
 
 ## References
 Excellent [tutorial](https://github.com/leriomaggio/deep-learning-keras-tensorflow).
