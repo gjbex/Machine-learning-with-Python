@@ -22,5 +22,6 @@ dependencies:
 
   # Notebook and visualization stack used by the core teaching material.
   - jupyterlab
+  - ipywidgets
   - matplotlib
   - bokeh
