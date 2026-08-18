@@ -13,9 +13,5 @@ values a in parameter space are explored.
   1. `hyperopt_imize.py`: Illustrates using the hyperopt TPE
     algorithm to optimize the parameters for an application, i.e.,
     `continuous_process.py`.
-  1. `JuliaJobs`: illustration of optimizing application
-    parameters by running jobs and using the result.
-  1. `JuliaProcesses`: illustration of optimizing application
-    parameters by running processes.
   1. `optuna`: illustrations of using Optuna for hyperparameter
     optimization.
