@@ -4,6 +4,7 @@ channels:
 dependencies:
   - jupyterlab
   - matplotlib
+  - optuna
   - pytorch
   - scipy
   - torchopt

@@ -15,4 +15,9 @@ equations in the loss function.
    across a family of heat equations with varying initial conditions and
    diffusivities. It uses hard initial and boundary constraints and validates
    interpolation and extrapolation against the analytical solution.
+1. `parameterized_heat_equation_optimization.ipynb`: methodology-first
+   hyperparameter optimization for the parameterized heat-equation PINN. It
+   compares a transparent random-search baseline with Optuna, confirms a
+   shortlist across fresh training seeds, and uses a final untouched audit
+   suite.
 1. `environment.yml`: conda environment specification file.
