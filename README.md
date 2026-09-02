@@ -9,6 +9,8 @@ For information on the training, see the website
 
 1. [`machine_learning_with_python.pptx`](machine_learning_with_python.pptx): PowerPoint
    presentation used for the training.
+1. ['multi_gpu_machine_learning.pptx'](multi_gpu_machine_learning.pptx): PowerPoint presentation used for the
+   multi-GPU session of the training.
 1. [`hands-on`](hands-on): Jupyter notebooks for hands-on sessions.
 1. [`source-code`](source-code): sample code written to develop the slides and
    illustrate concepts.
