@@ -27,3 +27,5 @@ natural language processing, computer vision, and reinforcement learning.
    tensors. It covers the basics of tensor operations, including creation,
    indexing, slicing, and mathematical operations. This notebook serves as a
    foundation for understanding how to work with data in PyTorch.
+1. `ddp`: directory containing code to illustrate the use of Distributed Data
+   Parallel (DDP) in PyTorch.
