@@ -29,3 +29,5 @@ natural language processing, computer vision, and reinforcement learning.
    foundation for understanding how to work with data in PyTorch.
 1. `ddp`: directory containing code to illustrate the use of Distributed Data
    Parallel (DDP) in PyTorch.
+1. [`fsdp/`](fsdp/): batch-friendly material comparing DDP with PyTorch FSDP2
+   using a synthetic transformer.
