@@ -53,3 +53,10 @@ The JSON output records throughput, time per optimizer step, peak PyTorch CUDA
 memory, the resolved precision, software versions, hardware information, and a
 check that model parameters remained synchronized. PyTorch's memory counters do
 not include every allocation made directly by CUDA libraries such as NCCL.
+
+## Related hands-on exercise
+
+The [`data-sharding`](data-sharding/) exercise supplies an intentionally buggy
+DDP input pipeline and a complete reference solution. Participants inspect
+per-rank sample identifiers, diagnose duplicated data ownership, and repair the
+loader with `DistributedSampler` and per-epoch reshuffling.
