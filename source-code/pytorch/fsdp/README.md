@@ -221,3 +221,6 @@ is appropriate when the model fits and when it does not.
 Activation checkpointing and distributed checkpoint files are deliberately
 left out. Both are valuable follow-up topics, but either would add another
 memory mechanism and make the core DDP/FSDP comparison harder to interpret.
+The separate
+[`activation-checkpointing`](../activation-checkpointing/) exercise isolates
+the activation-memory versus recomputation trade-off.

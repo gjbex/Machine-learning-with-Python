@@ -14,5 +14,7 @@ logic, rather than the boilerplate code for training and validation.
    code for data loading, model definition, training, and evaluation.
 2. [`ddp/`](ddp/): A batch-friendly ResNet-50 benchmark for comparing one and
    multiple GPUs with PyTorch Lightning's DDP strategy.
-3. [`fsdp/`](fsdp/): A batch-friendly synthetic-transformer benchmark for
+3. [`activation-checkpointing/`](activation-checkpointing/): A Lightning DDP
+   counterpart of the native activation-checkpointing exercise.
+4. [`fsdp/`](fsdp/): A batch-friendly synthetic-transformer benchmark for
    comparing Lightning DDP with FSDP2 memory sharding.

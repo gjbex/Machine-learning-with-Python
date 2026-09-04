@@ -237,3 +237,6 @@ have higher throughput. Then:
 Activation checkpointing and distributed checkpoint files are intentionally
 left out. They are useful follow-ups, but adding either would introduce a second
 memory mechanism and obscure the first DDP/FSDP2 comparison.
+The separate
+[`activation-checkpointing`](../activation-checkpointing/) exercise isolates
+that memory/recomputation trade-off before participants combine techniques.

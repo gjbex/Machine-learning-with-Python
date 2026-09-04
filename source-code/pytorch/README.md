@@ -29,5 +29,11 @@ natural language processing, computer vision, and reinforcement learning.
    foundation for understanding how to work with data in PyTorch.
 1. `ddp`: directory containing code to illustrate the use of Distributed Data
    Parallel (DDP) in PyTorch.
+1. [`activation-checkpointing/`](activation-checkpointing/): hands-on material
+   measuring the activation-memory versus recomputation trade-off in a native
+   PyTorch DDP workload.
+1. [`memory-diagnostics/`](memory-diagnostics/): hands-on exercise using
+   phase-by-phase CUDA measurements to distinguish activation, optimizer-state,
+   and retained-graph memory pressure.
 1. [`fsdp/`](fsdp/): batch-friendly material comparing DDP with PyTorch FSDP2
    using a synthetic transformer.
