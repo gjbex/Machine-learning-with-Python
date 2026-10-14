@@ -12,3 +12,9 @@ logic, rather than the boilerplate code for training and validation.
 1. `mnist.ipynb`: A Jupyter notebook that demonstrates how to use PyTorch
    Lightning to train a simple neural network on the MNIST dataset. It includes
    code for data loading, model definition, training, and evaluation.
+2. [`ddp/`](ddp/): A batch-friendly ResNet-50 benchmark for comparing one and
+   multiple GPUs with PyTorch Lightning's DDP strategy.
+3. [`activation-checkpointing/`](activation-checkpointing/): A Lightning DDP
+   counterpart of the native activation-checkpointing exercise.
+4. [`fsdp/`](fsdp/): A batch-friendly synthetic-transformer benchmark for
+   comparing Lightning DDP with FSDP2 memory sharding.

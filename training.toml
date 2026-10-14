@@ -1,6 +1,7 @@
 schema_version = 2
 id = "machine-learning-with-python"
 title = "Machine learning with Python"
+content_language = "en"
 summary = """
 Machine learning plays an increasingly important role in many scientific domains. A Python programmer can use high-quality machine learning frameworks for classic machine learning as well as for state-of-the-art algorithms. This training concentrates on methodological and practical aspects of machine learning and how to apply those using Python.
 """
@@ -125,6 +126,10 @@ kind = "environment"
 path = "environment.yml"
 
 [[trainers]]
+name = "Geert Jan Bex"
+email = "geertjan.bex@uhasselt.be"
+
+[[maintainers]]
 name = "Geert Jan Bex"
 email = "geertjan.bex@uhasselt.be"
 

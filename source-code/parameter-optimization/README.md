@@ -1,21 +1,20 @@
-# Parameter Optimization
+# Parameter optimization
 
-Here a number of implementations of algorithms to find optimal
-values a in parameter space are explored.
+Hyperparameter optimization is the process of finding the best hyperparameters
+for a machine learning model. Hyperparameters are parameters that are set
+before training a model and can significantly affect the performance of the
+model.
+
+Optuna is a Python framework for automated hyperparameter optimization.
+
 
 ## What is it?
 
-  1. `parameter_optimization.ipynb`: Jupyter notebook
-    illustrating the hyperopt and the BayianOptimization module.
-  1. `continuous_process.py`: Python script that takes x and y
-    y values as `--x` and `--y` options, and prints the value of
-    the function to optimize to standard output.
-  1. `hyperopt_imize.py`: Illustrates using the hyperopt TPE
-    algorithm to optimize the parameters for an application, i.e.,
-    `continuous_process.py`.
-  1. `JuliaJobs`: illustration of optimizing application
-    parameters by running jobs and using the result.
-  1. `JuliaProcesses`: illustration of optimizing application
-    parameters by running processes.
-  1. `optuna`: illustrations of using Optuna for hyperparameter
-    optimization.
+1. `simple.py`: minimal script showing the objective/study/trial workflow.
+1. `experiments.ipynb`: methodology-first introduction to Optuna, including a
+   controlled comparison of stochastic samplers and a machine-learning example
+   with separate validation and test data.
+1. `parameterized_heat_equation_optimization.ipynb`: advanced case study using
+   a parameterized heat-equation PINN. It compares random search with Optuna,
+   confirms a shortlist across fresh training seeds, and reserves a final audit
+   suite until after model selection.
